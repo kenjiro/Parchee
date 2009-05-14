@@ -18,10 +18,10 @@ development:
   adapter: mysql
   encoding: utf8
   reconnect: false
-  database: perchee_development
+  database: parchee_development
   pool: 5
   username: root
-  password:
+  password: root
   host: localhost
 
 # Warning: The database defined as "test" will be erased and
@@ -31,18 +31,18 @@ test:
   adapter: mysql
   encoding: utf8
   reconnect: false
-  database: perchee_test
+  database: parchee_test
   pool: 5
   username: root
-  password:
+  password: root
   host: localhost
 
 production:
   adapter: mysql
   encoding: utf8
   reconnect: false
-  database: perchee_production
+  database: parchee_production
   pool: 5
   username: root
-  password: 
+  password: root
   host: localhost
