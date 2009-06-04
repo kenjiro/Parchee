@@ -1,0 +1,2 @@
+module ParcheesHelper
+end
