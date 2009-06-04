@@ -6,8 +6,8 @@ class CreateParchees < ActiveRecord::Migration
       t.text :content
       t.timestamp :date
       t.boolean :right_now_flg
-      t.integer :user_latitude
-      t.integer :user_longitude
+      t.string :user_latitude
+      t.string :user_longitude
       t.boolean :delete_flg
       t.timestamps
       t.timestamp :deleted_at
